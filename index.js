@@ -19,7 +19,6 @@ function register () {
   email = document.getElementById('email').value
   password = document.getElementById('password').value
   full_name = document.getElementById('full_name').value
-  identity_no = document.getElementById('identity_no').value
 
   // Validate input fields
   if (validate_email(email) == false || validate_password(password) == false) {
@@ -53,7 +52,7 @@ function register () {
     database_ref.child('users/' + user.uid).set(user_data)
 
     // DOne
-    alert('User Created!!')
+    alert('User Created')
   })
   .catch(function(error) {
     // Firebase will use this to alert of its errors

@@ -13,6 +13,30 @@
         <link rel="stylesheet" type="text/css" href="index.css">
     </head>
     <body>
+        <style>
+            /* Add a logo container to hold the logo image */
+            .logo-container {
+              width: 40%;
+              text-align: center;
+              padding: 20px;
+              background-color: #f7f7f7; /* light grey background */
+            }
+          
+            /* Style the logo image */
+            .logo {
+              width: 300px; /* adjust the width to fit your logo */
+              height: 300px; /* adjust the height to fit your logo */
+              margin: 0 auto; /* center the logo horizontally */
+            }
+          </style>
+          
+          <!-- Add the logo container to the top of the page -->
+          <div class="logo-container">
+            <!-- Add the logo image -->
+            <img src="the-leafway-high-resolution-logo-black.png" alt="Logo" class="logo">
+          </div>
+
+
         <div id="content_container">
             <div id="form_container">
                 <div id="form_header_container">
@@ -25,7 +49,7 @@
                         <input type="email" id="email" placeholder="Email">
                         <input type="password" id="password" placeholder="New Password">
 
-                        <input type="text" id="identity_no" placeholder="identity_no">
+                        
 
                         <div id="button_container">
                             <button onclick="login()">Login</button>
