@@ -133,3 +133,35 @@ input {
     justify-content: center;
     align-items: center;
 }
+
+/* Add this to your CSS file */
+@media only screen and (max-width: 768px) {
+  /* Make the content container flexible */
+  #content_container {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  /* Make the form container flexible */
+  #form_container {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  /* Make the form header and content containers flexible */
+  #form_header_container, #form_content_container {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  /* Make the input fields and buttons flexible */
+  input, button {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+}
