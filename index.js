@@ -93,6 +93,9 @@ function login () {
     // Push to Firebase Database
     database_ref.child('users/' + user.uid).update(user_data)
 
+    // Redirect to content.html
+    window.location.href = 'content.html';
+
     // DOne
     alert('User Logged In!!')
 
@@ -105,7 +108,6 @@ function login () {
     alert(error_message)
   })
 }
-
 
 
 
