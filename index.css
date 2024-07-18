@@ -93,7 +93,7 @@ input {
     background: lightgrey;
     font-family: Montserrat;
     font-weight: 500;
-    color: #fff;
+    color: #000;
     font-size: 12px;
 
     border-bottom: 2px solid transparent;
@@ -110,7 +110,7 @@ input {
     align-items: center;
     
     background-color: grey;
-    color: #fff;
+    color: #000;
 
     float: left;
 
